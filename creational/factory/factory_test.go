@@ -1,8 +1,6 @@
 package factory
 
-import (
-	"testing"
-)
+import "testing"
 
 func TestVehicleCar(t *testing.T) {
 	car, err := GetVehicle(Car)

@@ -1,8 +1,6 @@
 package factory
 
-import (
-	"fmt"
-)
+import "fmt"
 
 // Vehicle type exposed
 type Vehicle interface {
